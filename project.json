@@ -43,17 +43,18 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "46bca4c1-27ce-4130-8ff7-25830a81701d",
-        "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
         "testCaseId": "8f5ebbca-1a16-467d-b73d-f8220f274ff1",
         "dataVariationFilePath": ".variations\\LoginData_Sheet1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "TC_LoginValidUser.xaml"
+        "fileName": "TC_LoginValidUser_Excel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0c1c8e39-30d1-4644-98a8-521fda06c873",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_LoginValidUser_Asset.xaml"
       }
     ],
     "saveToCloud": false
@@ -61,7 +62,7 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "TC_LoginValidUser.xaml",
+      "filePath": "TC_LoginValidUser_Excel.xaml",
       "uniqueId": "ee1cbd1d-c67b-4667-8fd2-3ab4ccde94fc",
       "input": [],
       "output": []

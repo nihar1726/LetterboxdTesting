@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Letterboxd • Social film discovery.(1)",
+  "Type": "Screen",
+  "Id": "Zn2Tm-K8vUCdrMFZKHISsA",
+  "Reference": "paGj6afqN0SDH8Vwc5TZMg/Zn2Tm-K8vUCdrMFZKHISsA",
+  "ParentRef": "paGj6afqN0SDH8Vwc5TZMg/fgYxZvazk0WV7Rpago50WQ",
+  "Created": "2026-02-10T06:56:51.082598Z",
+  "Updated": "2026-02-10T06:56:51.082598Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

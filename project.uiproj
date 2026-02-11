@@ -1,0 +1,6 @@
+{
+  "Name": "LetterBoxdTesting",
+  "ProjectType": "Tests",
+  "Description": "To learn UiPath",
+  "MainFile": "Main.xaml"
+}

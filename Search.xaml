@@ -94,19 +94,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Search" sap:VirtualizedContainerService.HintSize="684,1541.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Search" sap:VirtualizedContainerService.HintSize="684,1841.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1518.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="f0f7d54f-a5e5-4e2e-a82c-b01bc717a644" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1818.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="f0f7d54f-a5e5-4e2e-a82c-b01bc717a644" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1324" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1624" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -248,7 +248,7 @@
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,180.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
-                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"like feature is working"</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"rating feature is working"</CSharpValue>
                 </InArgument>
               </ui:LogMessage.Message>
             </ui:LogMessage>
@@ -257,6 +257,13 @@
                 <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="730114ff-98bc-458a-88bc-c74882620c72" ContentHash="3BMTsQRjcEGymVCB3Wpx7g" CvElementArea="1452, 781, 57, 51" CvType="Icon" DesignTimeRectangle="1459, 788, 45, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='substitute' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;i' idx='3' tag='I' /&gt;" Guid="424746a7-253f-4294-9b5b-b6c733ddcb35" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAArCAYAAADR0WDhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAOwSURBVGhD7Zh5U+JAEMX9KuuxKggKIneQKxwCgtwiHosiiutqee3up++tNxQUTAcIATVW7R+/SpF0v+43k2QmLMUr1/TVWZJPfEX+mzALukxES5ekZE/IlyyTK3JIzv0MudWiOCfHGgE67nhR6ELfl6yKc9HSFYvVYqIJVyRP644AfbM4xvJ92ysKy7l6cIVztLbtZZrDbDgC5I4VWO4wmiZ8qSqt2XviKGJ1R2gnmKLdcHYAftt8cVp3+Htxdg951BLT0gJNrdrcIg/50NHSR13o9vsIpOtMCzAT3kS5NwLOAO0EkyPC43CE0rThDIo8u08dextEiy3a8kRE3OauQo7QAdPSAn3gjli2OMmvYWTEhJJt0sqWS3fzMshbte2JUZOfF4wiRhUzII+6XrYDCZG/Xzgfb2LTGaQdxViBPng4MSsrVtdg1DxqcTD6cvysYKAse2FtEyhodYdZklFs3hgtW13kUNK0bN0lu19lMUaxuEKk5E65iR1F3/05C2gcBnAbyNfmAbONIzOxbfA5mEa/4KLBDDMTTp1vCrOAfpkJOJMDzYxD0TCBBUgONDN70Tw3EUhVWKCZQb/MRKRwygLNTKRwxk1kTros0MxkTu64idzpPQXTNRZsRkLZY8o277kJtdqh4sUDSzAj5daj6JeZAIWLR1JLP1iSmUhWLil//jDomZmAu9r1KwVTVZZsBoIHdapdv40YYCZAutGlavuFPLEjJvKZeNUS1TuvlDruTjcB8JCXW0/kiZvDiDdRokr7hTLNn6zXsSYAno/y5dOnr+SoX7l6psOzX6zHqSb6RmrtFzGVsvhHgLqoLz/IMhNN9I3UO28fvi1BPdRFfbknmakmAKaycfuHlEydFXsPUAf1Jt1Cw+gyAbBCnnT/UjTfZEUXCfRRZ3hFnoZuE+CgcScKxI8uWPFFAF3oo45cexIzmQB4T2Oq07U2a2IeoAddrXVgGjObAMn6DR3f/KbDJna+OdbQbOSEDvSgK9fSgyETIFG76b09zu/Ff7G8uekgD/nQgZ5cQy+GTQDstbBFwa7SHc2zJieBeOQhf3hHaoS5TAA0UL56plr7mbxqkTWrBeIQj7x5DYC5TfQptZ6o1nkjf7LMmh4G1xGHeFnDKAszAbA9wAM67gsR53F92jZiVhZqAmCRwqtyP9cYMYDfOD/LIqaXhZsA+IjHohU7OhMGcMTv4Y/7RfIuJgA+rjDyeIWKxbEx+yKml3czAVL1W/E5iaN8bZG8q4mP4h+GY11CYQd+qwAAAABJRU5ErkJggg==" InformativeScreenshot="e6aceb8050c7c023eadaa84181cb02f9.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/YflLASD58EyTSfeGs71kQQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,180.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"successfull liked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f0f7d54f-a5e5-4e2e-a82c-b01bc717a644" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="9080933a-4248-4092-8022-875cdf34fb00" ContentHash="MAdql8Q-YkKMmxuEHzKRyQ" CvElementArea="1407, 896, 100, 50" CvTextArea="1425, 911, 60, 19" CvTextArgument="SAVE" CvType="Button" DesignTimeRectangle="1411, 900, 93, 44" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='diary-entry-form-modal' tag='BUTTON' type='submit' class='button -action button-action' aaname='Save' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SAVE' /&gt;" Guid="960d7857-edfd-4b7b-98aa-8cee7dd62c41" InformativeScreenshot="30b23e8e6612d6e4fe7e114bfbe9af12.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/UYqFR8BkCEKn-hbA6p5f0A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
@@ -274,7 +281,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
                   <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"the movie is logged"</CSharpValue>
@@ -282,7 +289,7 @@
               </ui:LogMessage.Message>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>

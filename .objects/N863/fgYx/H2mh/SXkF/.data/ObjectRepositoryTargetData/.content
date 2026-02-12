@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Y-i6TVlNEmK7oaBsOWjpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="83524977-3067-4d4c-adc0-4b11a7f9b82e" CvTextArea="607, 159, 72, 12" CvTextArgument="TESTER12" CvType="Text" DesignTimeRectangle="579, 151, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' /&gt;" Guid="abcb5caf-0c8d-4d6c-9a81-91aca58f29ca" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83524977-3067-4d4c-adc0-4b11a7f9b82e" CvElementArea="678, 156, 18, 17" CvType="ArrowButton" DesignTimeRectangle="682, 161, 10, 10" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" Guid="2a7fd3a1-b220-4602-afed-e71f2d482ac5" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="28de5b96ac1c0ab69d2a9ae540712022.jpg" xmlns="">0MPr-ExaEhU6UUyqXuHNPWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

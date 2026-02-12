@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DHRFGEgGa0S9-bvfNmrxaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/tester12" CVScreenId="4839ba11-dbc4-49e6-88a4-64880ae54e97" DesignTimeRectangle="652, 357, 85, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Watchlist' innertext='Watchlist' visibleinnertext='Watchlist' idx='2' /&gt;" Guid="6365d82a-d61d-4755-bc10-db513c70a6c9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Tester12’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc77123173c9c6719b4f981164a9f4ea.jpg" xmlns="">0aB3qYaek60-bD54Vm4EGMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

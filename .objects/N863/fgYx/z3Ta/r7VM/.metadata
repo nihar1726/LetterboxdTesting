@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Verification target",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "r7VMOSj5P0unlAbVdXnDAw",
+  "Reference": "paGj6afqN0SDH8Vwc5TZMg/r7VMOSj5P0unlAbVdXnDAw",
+  "ParentRef": "paGj6afqN0SDH8Vwc5TZMg/z3TaDnyI8kS8lBQWXFYbNw",
+  "Created": "2026-02-12T09:56:30.746141Z",
+  "Updated": "2026-02-12T09:56:30.746141Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

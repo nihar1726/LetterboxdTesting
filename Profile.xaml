@@ -1,0 +1,299 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Profile" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="Profile_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Profile" sap:VirtualizedContainerService.HintSize="726,4219" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,4196" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,4002" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Dashboard Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Dashboard opened"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Profile button 'Tester12'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="01ffed09-929f-4b49-9887-46fb3be5cb06" ContentHash="RNZafuJO9UWgw-u_iXGJDQ" CvTextArea="607, 159, 72, 12" CvTextArgument="TESTER12" CvType="Text" DesignTimeRectangle="579, 151, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' /&gt;" Guid="d4499b00-c6f5-450b-878f-42ef9478ccd2" InformativeScreenshot="81f0c157ce78b8cc599febcf710a54af.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/l3E6jQjo2kubE46LaAVs_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="01ffed09-929f-4b49-9887-46fb3be5cb06" ContentHash="mFvK-lEEm0-Rc5uRhCA7Rg" CvTextArea="607, 159, 72, 12" CvTextArgument="TESTER12" CvType="Text" DesignTimeRectangle="579, 151, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' /&gt;" Guid="ef162d17-f873-4180-bfe5-722a36508a02" InformativeScreenshot="81f0c157ce78b8cc599febcf710a54af.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/X7gFG5Jq_EKbRpvfH70Bow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Profile button Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Profile button clicked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NHover DisplayName="Hover 'Tester12(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="SameAsCard" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NHover.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="83524977-3067-4d4c-adc0-4b11a7f9b82e" ContentHash="9Y-i6TVlNEmK7oaBsOWjpA" CvTextArea="607, 159, 72, 12" CvTextArgument="TESTER12" CvType="Text" DesignTimeRectangle="579, 151, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' /&gt;" Guid="abcb5caf-0c8d-4d6c-9a81-91aca58f29ca" InformativeScreenshot="28de5b96ac1c0ab69d2a9ae540712022.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/SXkFVcKeDUWvEynnNgQkaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="83524977-3067-4d4c-adc0-4b11a7f9b82e" CvElementArea="678, 156, 18, 17" CvType="ArrowButton" DesignTimeRectangle="682, 161, 10, 10" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" Guid="2a7fd3a1-b220-4602-afed-e71f2d482ac5" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NHover.Target>
+            </uix:NHover>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"Hovering"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="3c5558a1-b90f-4bc1-a9d1-869c89b8ace8" ContentHash="LUeVfJSCjUqrF02HNCLx4g" CvTextArea="417, 213, 41, 13" CvTextArgument="Profile" CvType="Text" DesignTimeRectangle="8, 121, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Profile' tag='A' /&gt;" Guid="97ff009e-bd79-47df-9925-89d10d241e8d" InformativeScreenshot="c8c04e1d553e5d108e53187818ef7fad.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/ALxPCbLnW0O4-6_P8lHl1A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="letterboxd.com/Tester12" CVScreenId="b02d5131-427a-4de2-9d75-1a9ed791ce4c" ContentHash="DG92OdoPI0SkxsGjdpSeqQ" DesignTimeRectangle="330, 357, 64, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='navlink' parentid='content' tag='A' aaname='Profile' /&gt;" Guid="8a19e865-fc42-4279-81ce-13cb760e171d" InformativeScreenshot="113c7894d589080fcbcdaf11659d76d7.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/lo9O8xuM90q9omRc-Tb6gA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Tester12’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Profile option Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"Profile option chose"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit Profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/Tester12" CVScreenId="b02d5131-427a-4de2-9d75-1a9ed791ce4c" ContentHash="n8iLPa5DckiDY9v_XSOJYQ" DesignTimeRectangle="448, 264, 104, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Edit Profile' class='button -small' innertext='Edit Profile' /&gt;" Guid="a7043a19-170c-4dcc-be08-c3b8acca95c7" InformativeScreenshot="2d15706de4cf1c8d8780d40276296b37.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/3w5LbZdhl06l78v6nbFr1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Tester12’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Edit profile Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"Edit profile button clicked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click + to add a movie Log message" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/settings" ContentHash="oax0u0GrVUWj4RyiSWzBNA" DesignTimeRectangle="848, 548, 32, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='favourite-films' tag='SPAN' /&gt;" Guid="f293dbd3-8a4c-48a1-8c5c-b0a035ec15a3" InformativeScreenshot="b48db719fcace675fea15e2e0bfd0bc8.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/clK1P3M_0kKDNJVnirFuSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="+ icon Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"Clicking + icon"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Text="Spider-Man (2002)" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/settings" CVScreenId="73249466-9b09-4edb-9027-b406c5b91cc3" ContentHash="jyUUzPd-MEqIWpzVE-6iqA" DesignTimeRectangle="519, 465, 330, 37" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='cboxLoadedContent' tag='INPUT' type='text' class='field -large -reversed frm-favourite-name ac_input' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="878529fc-d003-4ef9-9021-8fc0c11ead47" InformativeScreenshot="d633bff31efcb6d76c7c0f74c06184e1.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/BQqXDFZ2wU-vaJMIbhT2UA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Entering movie name Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">"Movie name entered"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Spider-Man (2002) Sam Raimi' on the webpage" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/settings" CVScreenId="915f8047-8649-4e32-b575-595eba673ab1" ContentHash="SPFi4ABMWk-EuYRReZj8Qw" CvTextArea="528, 483, 178, 16" CvTextArgument="Spider-Man (2002) Sam Raimi" CvType="Text" DesignTimeRectangle="520, 476, 311, 29" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="f38cf7a3-cb31-423c-b53e-1270ba968b3e" InformativeScreenshot="bc1ec46231b947f8f64a89d151409964.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/HOIckL2SrEWjEmaLTzUPPA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Movie selection Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"Movie Selected"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save Changes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/settings" CVScreenId="c2994cf6-c274-46da-9e1e-bdb280ea4e66" ContentHash="SRJ1maXjt0Kh9aq29fDhYA" DesignTimeRectangle="209, 519, 138, 29" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl type='submit' aaname='Save Changes' class='button -action button-action' /&gt;" Guid="145e1fc6-60ff-494e-b50f-65777e714b41" InformativeScreenshot="f0a68a6a0a766964d93e0e85274625b2.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/1jH29HSFuUWoBcpVImt2_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Save changes Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">"Changes saved"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'profile'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/settings" ContentHash="marHqdQWck6ocbVWibve6w" DesignTimeRectangle="263, 149, 44, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='profile' parentid='html' tag='A' /&gt;" Guid="86ca6e4c-beb0-45e7-af18-ef12657c53a4" InformativeScreenshot="7fe3e108406dbcacadc3222ecbda8e6d.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/xeGOtDsLLkWJ0ARU5MQ_xg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Profile Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">"Reached to profile"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.CloseMode>
+        <InArgument x:TypeArguments="uix:NAppCloseMode">
+          <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.CloseMode>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="8sVlno9kmkG-KHvzw01lGg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="8bb91b15b74826e13e7e1090cca12a1f.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/H2mhQo3hhUSiOIRFQKaNcQ" Selector="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

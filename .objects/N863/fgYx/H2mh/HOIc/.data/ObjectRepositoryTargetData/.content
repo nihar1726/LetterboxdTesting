@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SPFi4ABMWk-EuYRReZj8Qw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/settings" CVScreenId="915f8047-8649-4e32-b575-595eba673ab1" CvTextArea="528, 483, 178, 16" CvTextArgument="Spider-Man (2002) Sam Raimi" CvType="Text" DesignTimeRectangle="520, 476, 311, 29" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="f38cf7a3-cb31-423c-b53e-1270ba968b3e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc1ec46231b947f8f64a89d151409964.jpg" xmlns="">0O6TEDrLcFU6e_FX5nsqV1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

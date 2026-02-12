@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Letterboxd • Social film discovery.",
+  "Type": "Screen",
+  "Id": "H2mhQo3hhUSiOIRFQKaNcQ",
+  "Reference": "paGj6afqN0SDH8Vwc5TZMg/H2mhQo3hhUSiOIRFQKaNcQ",
+  "ParentRef": "paGj6afqN0SDH8Vwc5TZMg/fgYxZvazk0WV7Rpago50WQ",
+  "Created": "2026-02-12T07:16:35.3628805Z",
+  "Updated": "2026-02-12T07:16:35.3628805Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

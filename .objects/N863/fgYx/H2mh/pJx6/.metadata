@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Activity",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "pJx6ZXUI_0iVfWHjSzPvSQ",
+  "Reference": "paGj6afqN0SDH8Vwc5TZMg/pJx6ZXUI_0iVfWHjSzPvSQ",
+  "ParentRef": "paGj6afqN0SDH8Vwc5TZMg/H2mhQo3hhUSiOIRFQKaNcQ",
+  "Created": "2026-02-12T07:57:12.3742868Z",
+  "Updated": "2026-02-12T07:57:12.3742868Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

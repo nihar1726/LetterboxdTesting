@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TRumpn9ChEqQNDFKfsjWag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/settings" DesignTimeRectangle="520, 502, 311, 49" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="e49af1b9-c58c-401e-98e3-fe889e3d6a42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="677b08c4ef50816fd45f90740d8f5961.jpg" xmlns="">0E2NMsOg9bkS0mxSnTIHdsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

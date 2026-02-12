@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ci2X0n0zJkiK29Qx8fWNWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/settings" CVScreenId="5c12964a-0bf3-4bbe-973c-7539a3b0a729" CvTextArea="528, 483, 167, 15" CvTextArgument="Dune (2021) Denis Villeneuve" CvType="Text" DesignTimeRectangle="528, 483, 167, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="34c34814-804a-4c1f-b2b9-b36e73e1de8c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Account Settings • Letterboxd' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1dd055acb8f078022415bb7566909ebe.jpg" xmlns="">0gP9uFklOZUyc08EHxlwguA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

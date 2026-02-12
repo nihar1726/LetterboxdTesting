@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VN0Qen6xo0OVg8ctz33oPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="ba5e3687-bee9-407b-bff0-33c96f6ade3f" CvTextArea="621, 686, 369, 21" CvTextArgument="Choona (2023, T1) Pushpendra Nath Misra" CvType="Text" DesignTimeRectangle="608, 676, 650, 44" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="32d820a0-4395-4372-b3ac-178efe1fa72d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ce741e44ed2b35d8ad72fa0c0095ad4.jpg" xmlns="">0w4AcFq4JPUKTFlMaWNEW6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

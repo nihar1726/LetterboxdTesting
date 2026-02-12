@@ -102,13 +102,13 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_LoginValidUser_Asset" sap:VirtualizedContainerService.HintSize="950.6666666666666,2894.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC_LoginValidUser_Asset" sap:VirtualizedContainerService.HintSize="888.6666666666666,2894.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,2872" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V2">
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,2872" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

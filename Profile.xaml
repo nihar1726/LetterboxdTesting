@@ -96,12 +96,17 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Profile" sap:VirtualizedContainerService.HintSize="726,4219" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Profile" sap:VirtualizedContainerService.HintSize="670,4401" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="EnsureLoggedIn - Invoke Workflow File (EnsureLoggedIn.xaml)" sap:VirtualizedContainerService.HintSize="452,182" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="EnsureLoggedIn.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,4196" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e951e9f2-fde3-41fc-a782-3a812536a08d" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
@@ -170,6 +175,9 @@
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
                   <uix:VerifyExecutionOptions.Target>
                     <uix:TargetAnchorable BrowserURL="letterboxd.com/Tester12" CVScreenId="b02d5131-427a-4de2-9d75-1a9ed791ce4c" ContentHash="DG92OdoPI0SkxsGjdpSeqQ" DesignTimeRectangle="330, 357, 64, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='navlink' parentid='content' tag='A' aaname='Profile' /&gt;" Guid="8a19e865-fc42-4279-81ce-13cb760e171d" InformativeScreenshot="113c7894d589080fcbcdaf11659d76d7.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/lo9O8xuM90q9omRc-Tb6gA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‎Tester12’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                   </uix:VerifyExecutionOptions.Target>
@@ -285,7 +293,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="8sVlno9kmkG-KHvzw01lGg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="8bb91b15b74826e13e7e1090cca12a1f.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/H2mhQo3hhUSiOIRFQKaNcQ" Selector="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2">
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Edge" ContentHash="owBaVvmtpk-hF5NXNSE1Fw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="e14c5f5ba8e719f6cb839d268f58a557.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/H2mhQo3hhUSiOIRFQKaNcQ" Selector="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>

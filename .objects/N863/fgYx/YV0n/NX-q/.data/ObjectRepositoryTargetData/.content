@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dDk_lgxJo0-q1kWAE5c9cw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="5c73e55e-cac9-4a77-859e-8c2698caa271" CvElementArea="1458, 218, 215, 51" CvType="InputBox" DesignTimeRectangle="1462, 221, 210, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' tag='INPUT' type='text' class='field -borderless' aaname='Search:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="eea40996-2ff5-400a-a109-039af580a61d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="0, 0, 0, 0" Guid="059a924c-a536-4bec-9d67-f66b6977bac7" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="5c73e55e-cac9-4a77-859e-8c2698caa271" CvElementArea="1458, 218, 215, 51" CvType="InputBox" DesignTimeRectangle="1627, 221, 45, 45" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='search' tag='INPUT' type='submit' class='action' aaname='Search' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Search' /&gt;" Guid="472e2851-d6a9-4acb-b081-df5f38036b63" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec8cc19b3bb933a0132a8f5918353ed3.jpg" xmlns="">0b8BvGWRyykSl36FVhjEcNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

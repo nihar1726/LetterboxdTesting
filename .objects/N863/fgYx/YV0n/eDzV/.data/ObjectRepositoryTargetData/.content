@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ruWj9bD3t02QhU6reH411w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/tester12" CVScreenId="67a9fdd7-93f3-4754-8ed7-56d5ee365a4e" CvTextArea="923, 552, 103, 22" CvTextArgument="Watchlist" CvType="Text" DesignTimeRectangle="913, 533, 126, 66" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Watchlist' class='navlink' parentid='content' tag='A' /&gt;" Guid="806d7bd6-4cf8-475d-b575-c5264e50abb0" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s profile • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2999d1e4bf82382c4dca3899f0e5c355.jpg" xmlns="">03Z4PUVNVD0GO9vZHG30Axg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

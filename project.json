@@ -55,6 +55,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC_LoginValidUser_Asset.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d1c1aefc-2977-45b8-880f-a0a93796c2dd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Watchlist.xaml"
       }
     ],
     "saveToCloud": false

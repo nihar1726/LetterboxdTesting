@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="et0o6p2CA0-WLR-8l2l1Xg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/my+demon" CVScreenId="82feb3b7-64cc-4321-a498-14f189d0fd60" CvTextArea="260, 531, 76, 16" CvTextArgument="MY DEMON" CvType="Text" DesignTimeRectangle="243, 402, 114, 167" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='overlay' parentid='search-table-body' tag='SPAN' /&gt;" Guid="b2275695-dae5-4b51-a188-92bb4db9a347" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for my demon • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="82feb3b7-64cc-4321-a498-14f189d0fd60" CvTextArea="378, 413, 185, 36" CvTextArgument="My Demon" CvType="Text" DesignTimeRectangle="382, 405, 187, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='My Demon ' parentid='search-table-body' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='My Demon' /&gt;" Guid="6f7f2459-dc84-4f7e-9300-13c0d4900f53" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="41443ee32335e83f9ec1444d8e101f9b.jpg" xmlns="">0OtYNMKV6qEe5Y3e73mgoeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6HVjRddmTU21RznW_rfmqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/tester12/watchlist" CVScreenId="7772694d-cfc9-4eba-8c0a-01caaaa38e12" CvTextArea="272, 797, 136, 24" CvTextArgument="MY DEMON" CvType="Text" DesignTimeRectangle="243, 565, 196, 291" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='overlay' parentid='content' tag='SPAN' /&gt;" Guid="0d92b23c-f6c4-4150-963a-ba498b4f4cd7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s Watchlist • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3a0d86ac93431cb69775f55215344bc4.jpg" xmlns="">06XvAt7Rn5USkOkRRBUG0yQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

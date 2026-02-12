@@ -73,6 +73,12 @@
       "uniqueId": "ee1cbd1d-c67b-4667-8fd2-3ab4ccde94fc",
       "input": [],
       "output": []
+    },
+    {
+      "filePath": "Watchlist.xaml",
+      "uniqueId": "53ac5e2b-4a3c-4b37-b62d-9bd0c269bded",
+      "input": [],
+      "output": []
     }
   ],
   "isTemplate": false,

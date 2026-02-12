@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="53euKKFReUG_m9u142sc4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="e8cf56b4-92e6-4fc8-8e66-b3f6358583de" CvTextArea="1200, 785, 199, 45" CvTextArgument="*****" CvType="Text" DesignTimeRectangle="1204, 790, 195, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='rateit-range-2' tag='DIV' /&gt;" Guid="cda629f0-2f5b-4079-b997-5331ce0de687" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-36" Y="-12" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5efbbe158b10174fb08e37453d74b00d.jpg" xmlns="">0xgm2-lZ1rESD7pxBTnMiHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

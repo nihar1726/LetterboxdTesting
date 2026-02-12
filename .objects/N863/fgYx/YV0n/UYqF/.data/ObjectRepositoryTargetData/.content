@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MAdql8Q-YkKMmxuEHzKRyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="9080933a-4248-4092-8022-875cdf34fb00" CvElementArea="1407, 896, 100, 50" CvTextArea="1425, 911, 60, 19" CvTextArgument="SAVE" CvType="Button" DesignTimeRectangle="1411, 900, 93, 44" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='diary-entry-form-modal' tag='BUTTON' type='submit' class='button -action button-action' aaname='Save' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SAVE' /&gt;" Guid="960d7857-edfd-4b7b-98aa-8cee7dd62c41" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9080933a-4248-4092-8022-875cdf34fb00" CvElementArea="1407, 896, 100, 50" CvTextArea="1425, 911, 60, 19" CvTextArgument="SAVE" CvType="Button" DesignTimeRectangle="1429, 913, 57, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Save' parentid='diary-entry-form-modal' tag='SPAN' type='' class='label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='SAVE' /&gt;" Guid="cab06089-bb84-49e7-b661-cc34f187e153" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30b23e8e6612d6e4fe7e114bfbe9af12.jpg" xmlns="">0E0qA5UBNzUy1hPSu3383Fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

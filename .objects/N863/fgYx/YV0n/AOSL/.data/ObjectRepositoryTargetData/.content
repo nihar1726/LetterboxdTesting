@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0teNfQYV70ClpF63LiFWYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" DesignTimeRectangle="1204, 782, 156, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='rateit-hover' parentid='rateit-range-2' tag='DIV' /&gt;" Guid="bb5d7779-d486-4b64-8b12-4fece973a889" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79166896a5a2f81ae49cc793a0272f9a.jpg" xmlns="">0Cb9G8CB_MEK9neFB9EW-VQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

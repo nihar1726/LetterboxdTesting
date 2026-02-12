@@ -88,7 +88,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="452,1888.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="934.6666666666666,2270.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="movieName" />
     </Sequence.Variables>
@@ -97,6 +97,11 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="EnsureLoggedIn - Invoke Workflow File (EnsureLoggedIn.xaml)" sap:VirtualizedContainerService.HintSize="452,182.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="EnsureLoggedIn.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
     <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Movie name" CacheStrategy="None" DisplayName="Get Asset" FolderPath="karti7215119@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="452,187.33333333333334" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
       <ui:GetRobotAsset.Value>
         <OutArgument x:TypeArguments="x:String">
@@ -104,23 +109,23 @@
         </OutArgument>
       </ui:GetRobotAsset.Value>
     </ui:GetRobotAsset>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1678.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1878" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1484" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1683.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Log'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="DebuggerApi" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Click search icon &amp; type name" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="DebuggerApi" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="02c4b645-462d-4212-b90f-eadfce90f550" ContentHash="yZR8rDjjMEea5p-L4hqDKA" CvElementArea="1471, 226, 37, 36" CvType="Icon" DesignTimeRectangle="1471, 225, 36, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' tag='A' /&gt;" Guid="d418292e-2d9a-42dc-9bf9-2754e62aee1e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALbSURBVFhH7ZdrTxNBFIb5EUaRS4FCrS0CFbBYsVCQViqgXELSxAYDQooIipabUrRSTGyxCiiRimLESwSjiRo10R93zGmyw+4eujNLjTSmH54ve86887S7OzObcyC3ADKZHPWFTCMrmC5ZwXTJCqbL/ytYWVsP530DEAjehTvxdVh9/xPCjzdgZCoCXReHoNrhImP2gm7BPEMpXL52G9a2fkFi+7cmozP3oajMQjL0oEuwrtEDscQWEdHi0cZncHm7SJYowoK19c1k8sBEGM6090JFjQNyC0vAarNDk7cbBsZukd6Wjl6SKYKQIN7WaOIDm2xl8yucbmknfXLsTjc8fPFRMcZoPkb6eAgJDt2Y25nozTcwWW2kZzcKjWaIru38sMn5JdLDgyuIk8hvFd5SdY8WNaeaFC9UefVJ0qMFV9Dp7mDh43MxUhfh0sgUy2jr7SN1LbiC/uEgC7c3uEldBEvVCZZxdTpC6lpwBWejz1h4qaWS1EU4lF/MbnPs+Tapa8EVxB1CEsSlRF0XBddDKaeg5Aipp4IrGH/5iQXjeqeui4BCUsby6y+krgVXcH7pFQv3XPCRugh1DR6WMb2wQupacAUHx2dZeCi2Ruoi4AFCysCXTl3XgitosztZOKJ3X8VTjXx8c1sP6dGCK4jg+idNgIcFPS8LHsWksQtPNuGwwUh6tBASNJUfT+6l0kS49PC2OzxmXQ89YGNW3/1IHibUfTyEBBH5joKg8NlOHxjNFYo+3BrxMZC//RL+wE2Sy0NYEHG4WmFxfeeEIpcNLSYUa10q9ErqEkTyi8pgePIemXg3piLLUGyywuB4SHG9f3SG5KZCt6BE6dEKONfjTz5n0vP59O13CIbjyW8VS5Xyedur5J4F5RzMMyQ/onDPVdfk9I/NKCT7rkyQHjV/RVAPev/Jfy6IqCUbWztJj8S+CCJyyYwURLzd/iTq63L2VVCErGC6ZAXT5Q+H9kjSna0VewAAAABJRU5ErkJggg==" InformativeScreenshot="a255eadb53151816a1270afbebebd9db.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/wmZfd9DbhUyhwHZJQ2N9Qw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="02c4b645-462d-4212-b90f-eadfce90f550" CvElementArea="1534, 222, 141, 43" CvType="InputBox" DesignTimeRectangle="1537, 225, 101, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='add-new-button' tag='A' type='' class='button -action button-action button-add' aaname='Log' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='LOG' /&gt;" Guid="d51e9baf-96af-4111-abb9-0160386d884e" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -148,7 +153,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Open Movie" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="letterboxd.com/search/my+demon" CVScreenId="82feb3b7-64cc-4321-a498-14f189d0fd60" ContentHash="et0o6p2CA0-WLR-8l2l1Xg" CvTextArea="260, 531, 76, 16" CvTextArgument="MY DEMON" CvType="Text" DesignTimeRectangle="243, 402, 114, 167" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='overlay' parentid='search-table-body' tag='SPAN' /&gt;" Guid="b2275695-dae5-4b51-a188-92bb4db9a347" InformativeScreenshot="41443ee32335e83f9ec1444d8e101f9b.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/BOwhNQyuwkSgwPMMPF57yQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for my demon • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -159,7 +164,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add this film to your W…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Add to Watchlist" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="letterboxd.com/film/my-demon-2023" ContentHash="knunV4zwKkiwfXfC9Y-4wA" DesignTimeRectangle="1537, 407, 135, 91" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='userpanel' tag='A' /&gt;" Guid="ef71c8c4-1a5c-43be-989b-c90d3d1b48f9" InformativeScreenshot="30652e483c7cb592e626a780fdb59fb2.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/nNGa47cawkyFULkMh_IsZQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎My Demon (2023) directed by Kim Jang-han, Kwon Da-som • Reviews, film + cast • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -180,6 +185,11 @@
                     <uix:PointOffset />
                   </uix:TargetAnchorable.PointOffset>
                 </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Show watchlist" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cdd4af05-2f01-4d82-b066-3333c085d033" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/Tester12/watchlist" ContentHash="ZS4gUm7AvUq_zRy97pLXLg" DesignTimeRectangle="247, 501, 1005, 281" ElementType="List" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;ul' parentid='content' tag='UL' /&gt;" Guid="eff2fc26-6af5-42cd-badc-e3b82f941697" InformativeScreenshot="94240949505eff9ace90a6783705c04b.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/VvtpDFdXXUWootBqg50OtA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s Watchlist • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">

@@ -102,13 +102,13 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_LoginValidUser_Asset" sap:VirtualizedContainerService.HintSize="888.6666666666666,2894.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC_LoginValidUser_Asset" sap:VirtualizedContainerService.HintSize="934.6666666666666,2822.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,2872" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,2800" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="55fa7c13-1576-4719-8e2a-eab9dccca626" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -126,7 +126,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,271.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V5">
+              <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,271.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="17f61500-d20a-455e-aa55-1496527b2024" ContentHash="DzR9knLfC0Gb48lJBlG0vw" CvTextArea="693, 242, 87, 19" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="696, 243, 86, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='label' tag='SPAN' /&gt;" Guid="11505dee-379d-4a6e-9eb4-f19b13cc1100" InformativeScreenshot="2f1f58b3e47e173c056604b4182c462b.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/ls3UpP7L7kOhTjk1LI3bcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NClick.Target>
@@ -150,19 +150,25 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Valid_Login_Credentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="pnihar2705@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+                <ui:GetRobotCredential AssetName="Valid_Login_Credentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="karti7215119@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" TimeoutMS="{x:Null}">
                   <ui:GetRobotCredential.Password>
                     <OutArgument x:TypeArguments="ss:SecureString">
-                      <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">password</CSharpReference>
+                      <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">
+                        <CSharpReference.Result>
+                          <OutArgument x:TypeArguments="Location(ss:SecureString)" />
+                        </CSharpReference.Result>password</CSharpReference>
                     </OutArgument>
                   </ui:GetRobotCredential.Password>
                   <ui:GetRobotCredential.Username>
                     <OutArgument x:TypeArguments="x:String">
-                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">username</CSharpReference>
+                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">
+                        <CSharpReference.Result>
+                          <OutArgument x:TypeArguments="Location(x:String)" />
+                        </CSharpReference.Result>username</CSharpReference>
                     </OutArgument>
                   </ui:GetRobotCredential.Username>
                 </ui:GetRobotCredential>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V5">
+                <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" OutUiElement="{x:Null}" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" SecureText="{x:Null}" Timeout="{x:Null}" Version="V5">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="af4bb04e-a3e5-4f8f-b2e5-0d820fecd16c" ContentHash="at9dBHUpWEm2r47PYIwQtw" CvElementArea="865, 241, 230, 47" CvType="InputBox" DesignTimeRectangle="869, 243, 225, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='email' class='field signin-field' aaname='Username' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7c5935fc-ac49-4f3c-9f9b-8b73bae1137c" InformativeScreenshot="080af18f468e1d6ddf149403384fd1f1.jpg" IsResponsive="True" Reference="paGj6afqN0SDH8Vwc5TZMg/3fplz1sSC060Dl9i1yWF6Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -174,7 +180,10 @@
                   </uix:NTypeInto.Target>
                   <uix:NTypeInto.Text>
                     <InArgument x:TypeArguments="x:String">
-                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">username</CSharpValue>
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">
+                        <CSharpValue.Result>
+                          <OutArgument x:TypeArguments="x:String" />
+                        </CSharpValue.Result>username</CSharpValue>
                     </InArgument>
                   </uix:NTypeInto.Text>
                   <uix:NTypeInto.VerifyOptions>
@@ -191,14 +200,20 @@
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,180.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
                   <ui:LogMessage.Message>
                     <InArgument x:TypeArguments="x:Object">
-                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Username typed successfully"</CSharpValue>
+                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">
+                        <CSharpValue.Result>
+                          <OutArgument x:TypeArguments="x:Object" />
+                        </CSharpValue.Result>"Username typed successfully"</CSharpValue>
                     </InArgument>
                   </ui:LogMessage.Message>
                 </ui:LogMessage>
-                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V5">
+                <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="DebuggerApi" OutUiElement="{x:Null}" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Text="{x:Null}" Timeout="{x:Null}" Version="V5">
                   <uix:NTypeInto.SecureText>
                     <InArgument x:TypeArguments="ss:SecureString">
-                      <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">password</CSharpValue>
+                      <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">
+                        <CSharpValue.Result>
+                          <OutArgument x:TypeArguments="ss:SecureString" />
+                        </CSharpValue.Result>password</CSharpValue>
                     </InArgument>
                   </uix:NTypeInto.SecureText>
                   <uix:NTypeInto.Target>
@@ -224,11 +239,14 @@
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,180.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
                   <ui:LogMessage.Message>
                     <InArgument x:TypeArguments="x:Object">
-                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"Password typed successfully"</CSharpValue>
+                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">
+                        <CSharpValue.Result>
+                          <OutArgument x:TypeArguments="x:Object" />
+                        </CSharpValue.Result>"Password typed successfully"</CSharpValue>
                     </InArgument>
                   </ui:LogMessage.Message>
                 </ui:LogMessage>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V5">
+                <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Sign in(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="ca392b93-a35a-40ff-9656-0783d2f048c6" ContentHash="joUgUKT3wUSpZvPqeRVNAg" CvElementArea="1525, 240, 127, 47" CvTextArea="1542, 251, 88, 21" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="1528, 243, 122, 42" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="8ecb2d0d-de80-48ff-ac11-0b3e21e6564c" InformativeScreenshot="e6b4d4c108ccf0afbf54c87d764a9930.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/QMTtxLYmSEaTvi0hbeTf-w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:NClick.Target>
@@ -240,7 +258,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NCheckState DisplayName="Check App State 'Tester12'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,814" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Version="V5">
+                <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Tester12'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,814" sap2010:WorkflowViewState.IdRef="NCheckState_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="55fa7c13-1576-4719-8e2a-eab9dccca626" Timeout="{x:Null}" Version="V5">
                   <uix:NCheckState.IfExists>
                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,235.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_9">
                       <sap:WorkflowViewStateService.ViewState>
@@ -251,7 +269,10 @@
                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
                         <ui:LogMessage.Message>
                           <InArgument x:TypeArguments="x:Object">
-                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"Successfully logges in!"</CSharpValue>
+                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">
+                              <CSharpValue.Result>
+                                <OutArgument x:TypeArguments="x:Object" />
+                              </CSharpValue.Result>"Successfully logges in!"</CSharpValue>
                           </InArgument>
                         </ui:LogMessage.Message>
                       </ui:LogMessage>
@@ -267,7 +288,10 @@
                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Fatal">
                         <ui:LogMessage.Message>
                           <InArgument x:TypeArguments="x:Object">
-                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"Login failed!"</CSharpValue>
+                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">
+                              <CSharpValue.Result>
+                                <OutArgument x:TypeArguments="x:Object" />
+                              </CSharpValue.Result>"Login failed!"</CSharpValue>
                           </InArgument>
                         </ui:LogMessage.Message>
                       </ui:LogMessage>

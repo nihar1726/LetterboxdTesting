@@ -48,13 +48,6 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC_LoginValidUser_Excel.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "0c1c8e39-30d1-4644-98a8-521fda06c873",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "TC_LoginValidUser_Asset.xaml"
       }
     ],
     "saveToCloud": false
@@ -64,6 +57,12 @@
     {
       "filePath": "TC_LoginValidUser_Excel.xaml",
       "uniqueId": "ee1cbd1d-c67b-4667-8fd2-3ab4ccde94fc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TC_OscarNoms.xaml",
+      "uniqueId": "4eec54b3-ded6-43fe-a8bf-8aeb07fc68d9",
       "input": [],
       "output": []
     }

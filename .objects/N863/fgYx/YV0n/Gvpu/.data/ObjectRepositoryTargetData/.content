@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qi-D-LqJ2Uil03Fbsn8QEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" DesignTimeRectangle="1404, 240, 36, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;ul&amp;gt;li&amp;gt;a' href='#' isleaf='1' tag='A' /&gt;" Guid="48a68df0-d827-4384-9869-5dad0e4be89e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e24481a63d0dd082858d9297f0cbb84f.jpg" xmlns="">0w0tNVJEFj0O8aPeaEK96Dg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

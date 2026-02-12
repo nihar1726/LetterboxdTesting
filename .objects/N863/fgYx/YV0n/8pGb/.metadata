@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Oscars HQ",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8pGbTz6nMkCTpjnAu7blFQ",
+  "Reference": "paGj6afqN0SDH8Vwc5TZMg/8pGbTz6nMkCTpjnAu7blFQ",
+  "ParentRef": "paGj6afqN0SDH8Vwc5TZMg/YV0nFmk5hUSPmvOh-5JwPA",
+  "Created": "2026-02-12T10:28:50.1717372Z",
+  "Updated": "2026-02-12T10:28:50.1717372Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

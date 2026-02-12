@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="5XvpEJkMaE6o7arHv5Zhsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" Url="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

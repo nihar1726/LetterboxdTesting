@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fHaOm6zINEeFpm_5d8VDCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="6fb21fc6-90a7-4ef7-8fc7-b90f13668655" CvElementArea="1470, 234, 38, 37" CvType="Icon" DesignTimeRectangle="1471, 234, 36, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' tag='A' /&gt;" Guid="6ec8e752-2904-43a5-9f50-6115527c456e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALOSURBVFhH7Zf9T1JRGMf9I1ojNVSUSNRgpCiZCU5gFitf5nLL7E2HmRWFkAWVL7QJRTErgyxbrln2tlWrtvrjnvaw3bN77yP3nAstXeOHzy/3ec73fMa954WKXYZq2MlUqB/sNMqCpVIWLJWyYKn8v4ItrZ1wfOQ8BMNzcCf9AlY2fsL8ozWYii7CwKkJcBzykDHFoFuw0lgPF67eguzmL8i9/63J9Ow9qGloJBl60CXY0e2H1PNNIqLFw7XP4O4bIFmiCAu2dvaQyYMzd6E3MAzNB11gqK4Dq90Jnr5BOHf5JunFPnWmCEKC+FqTuXdssuX1b3C4N0D65Di7vPBg9aNijMnSTPp4CAlOhG7LJvoKDVYb6dkKo8kCS9m3bGxkIUN6eHAFcZJSXpXD5VEsqCZHB+nRgivY5Q2w8FA8ReoinJmKsozA8Bipa8EVHJ0Ms/D2I15SF6HR1sYyLt1IkLoWXMHY0goLr99/gNRFMFTVsNeM25S6rgVXEE8ISRC3EnVdFNwPpZy9dftIvRBcwfTLTywY9zt1XQQUkjIyr7+QuhZcwYXMKxbuO3GS1EVo7/axjGhimdS14AqOh2IsPJbKkroIeIGQMnDRqetacAXtzi4Wjug9Vx0ut2J8z7Eh0qMFVxDB/U+aAFehnsWCVzFpbOLxOuwxmkiPFkKC5iZ7/ixlrzr5jHvc4TXrSjzJxjzd+JG/TKj7eAgJIvITBUFhX/8ImCwtij48GvEzkK9+idHgdZLLQ1gQcbn9cH/1A5kYZeOpnGKvK4ReSV2CSFWtGSYj82TirYgsZqDWbIXxa3HF87PTsyS3ELoFJfDYOzp0Ov+dSd/nkzffITyXzv9XsdraFP3FShYtKGd3pTH/JwrPXHVNjvqmPXZxhvSo+SuCetD7S/5zQUQt2e3vJz0S2yKIyCV3pCDSNziaR/1czrYKilAWLJWyYKn8AW97SM9XueTdAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6fb21fc6-90a7-4ef7-8fc7-b90f13668655" CvTextArea="1341, 242, 106, 19" CvTextArgument="JOURNAL" CvType="Text" DesignTimeRectangle="1344, 243, 105, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Journal' class='label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='JOURNAL' /&gt;" Guid="c475c4f3-2fad-41a6-839b-96e4a13732dd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="342fc42934a82ade4a3cb7b60ef41252.jpg" xmlns="">0R0gbD-FeRE2PtMvcdzSHtg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

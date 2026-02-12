@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WvzJqghlukKa59-y__Sdzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/oscars" CVScreenId="73402c8a-7f1f-4eee-ad02-6af8efe85700" CvTextArea="125, 458, 581, 22" CvTextArgument="The 98th Academy Award Nominees: All Feature Films" CvType="Text" DesignTimeRectangle="127, 456, 579, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='The 98th Academy Award Nominees: All Feature Films' parentid='content' tag='A' /&gt;" Guid="a108cbab-8fda-4ec7-bd55-ccb629a7b82b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Oscars’s HQ profile • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="73402c8a-7f1f-4eee-ad02-6af8efe85700" CvTextArea="125, 987, 802, 27" CvTextArgument="All feature films nominated at the 2026 Oscars, hosted Sunday, March 15th" CvType="Text" DesignTimeRectangle="125, 988, 802, 25" ElementType="Text" Guid="6fca1ef6-ee36-4b8c-8e2e-19112553ae9a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4f0573a6d41f3a20b93e90a3d90d643f.jpg" xmlns="">0HCl6CTLMsEKqSDLOe37JyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

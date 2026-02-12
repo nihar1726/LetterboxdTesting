@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jQL2Ax31CkCnOkH54PG1qA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" CVScreenId="9edc4e35-7f33-4e67-a05c-a8b0ba493976" CvTextArea="293, 735, 172, 18" CvTextArgument="List by Oscars HQ" CvType="Text" DesignTimeRectangle="295, 728, 957, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' tag='H1' /&gt;" Guid="2acbd17b-a98f-4b61-b562-ae8a2c9a23e2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="841dcc1b0fcc93b74166d2665f5372f9.jpg" xmlns="">07jZzXBt9mE6G8ombHvfI5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rr8fvT-4v0qJDbeF55PT9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature/detail" CVScreenId="723256ce-fcb4-4108-8a64-354b7205dd22" CvTextArea="380, 584, 154, 21" CvTextArgument="2 nominations" CvType="Text" DesignTimeRectangle="382, 577, 870, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='item-4580400692' tag='P' /&gt;" Guid="90158066-a8e5-4f62-bd00-1aad4ceef7a5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="723256ce-fcb4-4108-8a64-354b7205dd22" CvTextArea="380, 636, 223, 25" CvTextArgument="Best Costume Design" CvType="Text" DesignTimeRectangle="382, 632, 222, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Best Costume Design' parentid='item-4580400692' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Best Costume Design' /&gt;" Guid="f9b5699b-1635-4aa2-9c8a-cd88ac23a48e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd6d1f31be8ecab095dbc3888c2dad4a.jpg" xmlns="">0-JvTtH4NxkmmUrwafYbU4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="KQG8i_h6K0a3cVM3_qKtKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='msedge.exe' title='‎Search results for oscars • Letterboxd' /&gt;" Url="letterboxd.com/search/oscars" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kZZ3C6CLdEq1FTOY0lDeIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/oscars" CVScreenId="6ee38bf3-26e5-4050-b3c1-7a679e69d9e6" CvTextArea="1325, 353, 217, 19" CvTextArgument="SHOW RESULTS FOR" CvType="Text" DesignTimeRectangle="1327, 353, 345, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-filter' tag='H2' /&gt;" Guid="2eed4df1-005c-4926-a808-2062952e5b9c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for oscars • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6ee38bf3-26e5-4050-b3c1-7a679e69d9e6" CvElementArea="1324, 396, 350, 47" CvType="InputBox" DesignTimeRectangle="1327, 401, 345, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='search-filter' tag='A' type='' class='' aaname='All' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='All' /&gt;" Guid="078f4f52-a78b-4637-a2e6-e0f99ce488f2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59413f6aaaffe343cc4f74bda8c1905b.jpg" xmlns="">0yWzAmVNlUEC0zJowJ2lZ2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

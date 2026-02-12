@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r8tX1F2tdEefwI0mzZ-OiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="d6b808eb-11a0-4eaf-aa58-3c028435cd8c" CvElementArea="1458, 228, 216, 52" CvType="InputBox" DesignTimeRectangle="1627, 232, 45, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='search' tag='INPUT' type='submit' class='action' aaname='Search' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Search' /&gt;" Guid="4eba0300-4e20-4309-bdaf-7f247ce695d1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d6b808eb-11a0-4eaf-aa58-3c028435cd8c" CvTextArea="1274, 242, 106, 21" CvTextArgument="JOURNAL" CvType="Text" DesignTimeRectangle="1277, 245, 104, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Journal' class='label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='JOURNAL' /&gt;" Guid="4d0d42ab-bd9c-4ba6-9fe8-0a226f4e0f0f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9798ad57a203b8df76194f2a39329cf6.jpg" xmlns="">0WILY0DjB5Uyw4JHQCwAnFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

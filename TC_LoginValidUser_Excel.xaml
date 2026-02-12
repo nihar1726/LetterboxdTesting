@@ -243,41 +243,44 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="950.6666666666666,3192" sap2010:WorkflowViewState.IdRef="Sequence_19">
+  <Sequence sap:VirtualizedContainerService.HintSize="556,3144" sap2010:WorkflowViewState.IdRef="Sequence_19">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:ManualTrigger Result="{x:Null}" DisplayName="Empty Thought" sap:VirtualizedContainerService.HintSize="556,78.66666666666667" sap2010:WorkflowViewState.IdRef="ManualTrigger_1" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,3090.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="93ec995b-04cb-45c6-a30c-b7dc004e7b45" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,3042.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="93ec995b-04cb-45c6-a30c-b7dc004e7b45" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,2896" sap2010:WorkflowViewState.IdRef="Sequence_18">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,2848" sap2010:WorkflowViewState.IdRef="Sequence_18">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="520,410" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="520,362" sap2010:WorkflowViewState.IdRef="Sequence_11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,310" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93ec995b-04cb-45c6-a30c-b7dc004e7b45" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,262" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93ec995b-04cb-45c6-a30c-b7dc004e7b45" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="ee1e9417-ca56-488b-a0a3-c48b99946a1a" ContentHash="rkbznqWTZk2xE7wZG0UdDw" CvTextArea="693, 242, 87, 19" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="696, 231, 86, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sign in' tag='A' /&gt;" Guid="709672eb-8857-410b-8b50-20ff5df5a111" InformativeScreenshot="7552826a7b4937662947b51f5bfcbe69.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/1t84MT-bAUCPrD5NPxjsPQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NClick.Target>
                 <uix:NClick.VerifyOptions>
                   <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
                     <uix:VerifyExecutionOptions.Target>
                       <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="185a8142-1be3-4d7a-8f31-7987a0b37845" ContentHash="_MwoWW8Ovk6aLfrKJIdO1g" CvTextArea="867, 224, 88, 18" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="869, 224, 225, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="550e9647-642d-46ca-9a89-11007799b601" InformativeScreenshot="fa0dc3e24d0ea3ca8c82084d182f1b46.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/RoJuyGBAE0mrVluslATh6w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target DesignTimeRectangle="869, 224, 781, 67" FuzzySelectorArgument="&lt;webctrl parentid='signin' tag='DIV' type='' class='fields' aaname=' &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username&amp;#xA;Password&amp;#xA;Remember me&amp;#xA;&amp;#xA;Forgotten?&amp;#xA;&amp;#xA;×' /&gt;" Guid="07fca076-4b4b-4ca7-a8b4-59b158aeccd5" SearchSteps="FuzzySelector" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -452,7 +455,14 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="DMWM-Ut0xE-LKkcSXx1dbA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="63ea395670319b19d6f36313af334d04.jpg" Reference="paGj6afqN0SDH8Vwc5TZMg/YV0nFmk5hUSPmvOh-5JwPA" Selector="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2" />
+        <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="6dTOggD-hUasIrrkha4g3g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="08AvfBCc4lEq4kSWvy66Grg" Reference="paGj6afqN0SDH8Vwc5TZMg/YV0nFmk5hUSPmvOh-5JwPA" Selector="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

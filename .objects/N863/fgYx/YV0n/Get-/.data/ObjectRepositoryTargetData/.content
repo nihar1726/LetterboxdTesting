@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3OVsv_JYtUm-a_mqsNKQZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/true+beauty" DesignTimeRectangle="243, 400, 114, 167" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='overlay' parentid='search-table-body' tag='SPAN' /&gt;" Guid="9ad5d38b-6e34-47e0-8b75-bab7d78407ad" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for true beauty • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1916ebc86277c131f6a7afd919d11f45.jpg" xmlns="">0JV3kLYvVcU6zrGzzO7mUPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

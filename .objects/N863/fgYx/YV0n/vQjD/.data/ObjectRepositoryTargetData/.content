@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2sa0YKX-sUG149KKfMYO1A" Reference="paGj6afqN0SDH8Vwc5TZMg/vQjDRnTg6Uu7PWbWLHChrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/my+demon" CVScreenId="0c0dd317-c0b1-405d-b4fd-53aa35fc64ae" DesignTimeRectangle="802, 222, 170, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' innertext='Tester12' /&gt;" Guid="f33d1a97-15e3-491f-b07e-783781736573" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for my demon • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7e624c67630c8586bca285b225ef902f.jpg" xmlns="">0jVUIhL7hXUu9TwXlxi6oZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

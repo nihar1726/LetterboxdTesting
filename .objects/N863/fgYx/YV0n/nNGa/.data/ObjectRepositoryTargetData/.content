@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="knunV4zwKkiwfXfC9Y-4wA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/film/my-demon-2023" DesignTimeRectangle="1537, 407, 135, 91" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='userpanel' tag='A' /&gt;" Guid="ef71c8c4-1a5c-43be-989b-c90d3d1b48f9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎My Demon (2023) directed by Kim Jang-han, Kwon Da-som • Reviews, film + cast • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="30652e483c7cb592e626a780fdb59fb2.jpg" xmlns="">0Ud3p00tPxkKMbGGyVn_VHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

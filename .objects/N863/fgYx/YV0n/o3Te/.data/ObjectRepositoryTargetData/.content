@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5Q-lobUL6023r5ILnntWPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="0767802c-4fe7-440b-a339-c38f5865b7d8" CvTextArea="845, 233, 109, 21" CvTextArgument="TESTER12" CvType="Text" DesignTimeRectangle="802, 224, 170, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' tag='A' /&gt;" Guid="13640767-ad72-4505-9ff9-17d8c401d0ff" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0767802c-4fe7-440b-a339-c38f5865b7d8" CvElementArea="988, 225, 32, 37" CvType="Icon" DesignTimeRectangle="995, 230, 19, 30" FullSelectorArgument="&lt;webctrl class='icon' css-selector='body&amp;gt;header&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;ul&amp;gt;li&amp;gt;a&amp;gt;span' idx='2' tag='SPAN' /&gt;" Guid="38d688ce-d69e-497a-92b2-9424ad1cf626" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAiCAYAAAC0nUK+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHdSURBVEhLtZZbSwJREMf7EBVmaVlmSRcfyodACcEuGGHYS4QQXaWisiuSRVeKLqQRWUJYD0VUED0EQX24iRFW2jN7dmetHn4vM//zYy/nzG5JqaUK/osSsfCXFCW32uugpa2D1EWKkk8uboK1uo7URUzLOwK9sJ3KkboWpuS22gY4y73CyMwa6WlhSh7fPIbs8xd09oRJTwu2vDs8lBcjeAdiXwuW3On2wMX9e168d35H+jIM5WUVNkgeXRWuemx+nWRkGMoHhicKYiQQipCMDF252+OFzOOHSu5wNZGcDKm83GqHnXROJT64vCc5PaTy4cm4SozgyRRzemjKPV4fXD99EjmH2cS+XI5D6TDzQBZxOL15gcqaerl8fCFJFnHx+oMql0qOQ0lcwGVcY/8X5MpQEhdxwMdosTnkcmUomQVfPG4AUaySc4gtbxE5blkxp2BKLu4iPGR42MScAlvucDWrxDgWcDyIuZ+w5Tiwfsoj0SmSEWHLR+cSBTGOYBzFYkaELd9N3+bF+NHAj4fY14Ilx98I5apDg1HSl8GS+4J9efHKTor09GDJo7ElSN+9QbXTTXp6sOQbJ1nwd/WTuhGGcpwZ06u7pM7BUN7Y2g5VDhepczCU/4Z/lX8DORTtre9pQbQAAAAASUVORK5CYII=" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2c64594b72aec8be933e41821b175bbf.jpg" xmlns="">0TX1s8UblS0aKv1b89njw1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
